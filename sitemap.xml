@@ -5,15 +5,15 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://startbiai.com/consultoria-power-bi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <!--
     Quando as páginas dedicadas por serviço forem publicadas, adicione uma
     entrada <url> para cada uma, por exemplo:
 
-    <url>
-      <loc>https://startbiai.com/power-bi</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.9</priority>
-    </url>
     <url>
       <loc>https://startbiai.com/power-platform</loc>
       <changefreq>monthly</changefreq>
