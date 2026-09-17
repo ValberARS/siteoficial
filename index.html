@@ -426,6 +426,9 @@
     padding:4px 8px;border:1px solid var(--line-strong);border-radius:2px;
     color:var(--text-soft);
   }
+  .svc-link{display:inline-flex;align-items:center;gap:6px;margin-top:6px;font-size:.86rem;font-weight:600;color:var(--accent);text-decoration:none;}
+  .svc-link svg{width:12px;height:12px;transition:transform .2s ease;}
+  .svc-link:hover svg{transform:translate(2px,-2px);}
 
   /* ============ PORTFOLIO ============ */
   .folio-grid{
@@ -804,6 +807,7 @@
         <div class="tags">
           <span>Power BI</span><span>DAX</span><span><span data-pt>Modelagem semântica</span><span data-en>Semantic modeling</span></span><span>SQL</span>
         </div>
+        <a class="svc-link" href="/consultoria-power-bi"><span data-pt>Saiba mais sobre consultoria Power BI</span><span data-en>More about Power BI consulting</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg></a>
       </article>
 
       <article class="svc-card">
